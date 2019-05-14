@@ -9,13 +9,24 @@
 <form class="" action=""method="post">
 
     <label for="">nombre del producto</label>
-    <input type="text" placeholder="ingrese un producto" name="" value="">
+    <input type="text" name=""
+    required
+    pattern="^[a-zA-Z]{30}$">
     <br><br>
+
+
     <label for="">precio</label>
-    <input type="text" name="" placeholder="ingrese un precio" value="">
+    <input type="text" name=""
+    required
+    pattern="^[0-9,.]{10}$">
     <br><br>
+
+
      <label for="">esta activo</label>
-     <input type="text" placeholder="?" name=""  value="">
+     <input type="text"  name=""
+     required
+     pattern="^[a-zA-Z]{8}$"
+     >
 <br><br>
 <br>
 <button type="submit" name="button">verificar</button>
