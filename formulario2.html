@@ -5,14 +5,20 @@
     <title></title>
   </head>
   <body>
-    <form class="" action="index.html" method="post">
+    <form class="" action="" method="post">
 
 
     <label for="">precio</label>
-    <input type="text" placeholder="ingrese el nuevo precio" name="" value="">
+    <input type="text" name=""
+     pattern="^[0-9,.]{8}$"
+     required>
 <br><br>
 <label for="">esta activo?</label>
-<input type="text" placeholder="?" name="" value="">
+<input type="text" name=""
+pattern="^[a-zA-Z]{8}$"
+required>
+
+<button type="submit" name="button">aceptar</button>
 
 </form>
   </body>
